@@ -1,10 +1,10 @@
 var matrix;
 var $table;
 var rowMajor = false;
-var msbendian = false;
+var msbendian = true;
 
 $(function() {
-  	matrix = createArray(16,16);
+  	matrix = createArray(8,5);
   	updateTable();
 	initOptions();
 
